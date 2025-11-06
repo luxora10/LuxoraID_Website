@@ -1,0 +1,171 @@
+
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luxora.id | Fashion Elegan Wanita</title>
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #fafafa;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(135deg, #a77cf4, #6559f5);
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    header img {
+      width: 100px;
+      border-radius: 10px;
+    }
+
+    header h1 {
+      margin: 15px 0 5px;
+      font-size: 28px;
+      letter-spacing: 1px;
+    }
+
+    header p {
+      font-size: 15px;
+      opacity: 0.9;
+    }
+
+    .product-section {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+      padding: 40px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .product-card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .product-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    }
+
+    .product-card img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
+
+    .product-info {
+      padding: 20px;
+      text-align: center;
+    }
+
+    .product-info h3 {
+      margin: 10px 0;
+      color: #444;
+    }
+
+    .product-info p {
+      font-size: 14px;
+      color: #777;
+      margin-bottom: 10px;
+    }
+
+    .price {
+      font-size: 16px;
+      font-weight: 600;
+      color: #6559f5;
+      margin-bottom: 15px;
+    }
+
+    .buy-btn {
+      background: linear-gradient(135deg, #a77cf4, #6559f5);
+      color: white;
+      border: none;
+      border-radius: 6px;
+      padding: 10px 16px;
+      cursor: pointer;
+      font-size: 15px;
+      transition: 0.3s;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .buy-btn:hover {
+      opacity: 0.9;
+      transform: scale(1.03);
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      background-color: #f1f1f1;
+      color: #777;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+       <img src="logo.jpeg" alt="Luxora.id Logo"> <h1>Luxora.id</h1>
+    <p>Fashion Elegan & Modern untuk Wanita Anggun</p>
+  </header>
+
+  <section class="product-section">
+
+    <!-- Produk 1 -->
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1542060748-10c28b62716f?auto=format&fit=crop&w=600&q=80" alt="Dress Elegan">
+      <div class="product-info">
+        <h3>Dress Elegan Hitam</h3>
+        <p>Material lembut & nyaman. Cocok untuk acara formal.</p>
+        <div class="price">Rp 249.000</div>
+        <a href="https://wa.me/6281234567890?text=Halo%20Luxora.id,%20saya%20ingin%20membeli%20Dress%20Elegan%20Hitam" class="buy-btn" target="_blank">Beli via WhatsApp</a>
+      </div>
+    </div>
+
+    <!-- Produk 2 -->
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1589487391730-58f20eb2c308?auto=format&fit=crop&w=600&q=80" alt="Blouse Wanita">
+      <div class="product-info">
+        <h3>Blouse Putih Premium</h3>
+        <p>Desain elegan dengan bahan adem dan ringan.</p>
+        <div class="price">Rp 189.000</div>
+        <a href="https://wa.me/6281234567890?text=Halo%20Luxora.id,%20saya%20ingin%20membeli%20Blouse%20Putih%20Premium" class="buy-btn" target="_blank">Beli via WhatsApp</a>
+      </div>
+    </div>
+
+    <!-- Produk 3 -->
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1555371362-54e5f47b6a6a?auto=format&fit=crop&w=600&q=80" alt="Cardigan Kasual">
+      <div class="product-info">
+        <h3>Cardigan Kasual</h3>
+        <p>Gaya santai tapi tetap feminin. Tersedia beberapa warna.</p>
+        <div class="price">Rp 215.000</div>
+        <a href="https://wa.me/6281234567890?text=Halo%20Luxora.id,%20saya%20ingin%20membeli%20Cardigan%20Kasual" class="buy-btn" target="_blank">Beli via WhatsApp</a>
+      </div>
+    </div>
+
+  </section>
+
+  <footer>
+    © 2025 Luxora.id | Fashion Elegan Wanita Indonesia
+  </footer>
+
+</body>
+</html>
+
+
